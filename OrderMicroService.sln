@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMicroServiceAPI", "OrderMicroService\OrderMicroServiceAPI.csproj", "{4D853B71-2A68-49DD-A046-3B1FD3D67954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroService.Data", "OrderMicroService.Data\OrderMicroService.Data.csproj", "{06272FEF-3034-49CF-84C4-B9C6DEA120B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D853B71-2A68-49DD-A046-3B1FD3D67954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D853B71-2A68-49DD-A046-3B1FD3D67954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D853B71-2A68-49DD-A046-3B1FD3D67954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D853B71-2A68-49DD-A046-3B1FD3D67954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06272FEF-3034-49CF-84C4-B9C6DEA120B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06272FEF-3034-49CF-84C4-B9C6DEA120B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06272FEF-3034-49CF-84C4-B9C6DEA120B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06272FEF-3034-49CF-84C4-B9C6DEA120B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31E5845B-8037-4047-8380-83D671A45455}
+	EndGlobalSection
+EndGlobal
